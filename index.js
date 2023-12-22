@@ -82,7 +82,7 @@ app.get("/api/info", (request, response) => {
   response.status(200).send(responseText);
 });
 
-const port = 3002;
-app.listen(port, () => {
-  console.log(`Server listing on port:${port}`);
+const PORT = process.env.PORT || 3001;
+app.listen(PORT, () => {
+  console.log(`Server listing on port:${PORT}`);
 });
