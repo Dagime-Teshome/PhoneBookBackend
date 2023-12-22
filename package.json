@@ -1,0 +1,29 @@
+{
+  "name": "phonebook-_backend",
+  "version": "1.0.0",
+  "description": "Practice exercises,to lean backEnd development",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dagime-Teshome/PhoneBookBackend.git"
+  },
+  "author": "Dagime",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dagime-Teshome/PhoneBookBackend/issues"
+  },
+  "homepage": "https://github.com/Dagime-Teshome/PhoneBookBackend#readme",
+  "dependencies": {
+    "expres": "^0.0.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
